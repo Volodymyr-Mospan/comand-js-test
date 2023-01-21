@@ -1,5 +1,5 @@
 <header class="header">
-  <div class="container">
+  <div class="container header__container">
     <nav class="nav">
       <a href="./index.html" class="logo">
         <svg class="logo__icon" width="24" height="24">
@@ -13,18 +13,19 @@
       </ul>
     </nav>
 
-    <form name="search-film-form">
+    <form class="search-form" name="search-form">
       <input
+        class="search-form__input"
         type="text"
         name="search-film"
         id="search-film"
         placeholder="Movie search"
       />
-      <!-- <button type="submit">
-        <svg>
+      <button class="search-form__btn" type="submit">
+        <svg width="12" height="12">
           <use href="./images/svg/icon.svg#icon-search"></use>
         </svg>
-      </button> -->
+      </button>
     </form>
     <p></p>
   </div>

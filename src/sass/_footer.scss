@@ -1,0 +1,25 @@
+.footer {
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+
+    color: #545454;
+    background-color: #f7f7f7;
+  }
+
+  &__text {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+  }
+
+  &__icon {
+    vertical-align: middle;
+  }
+}

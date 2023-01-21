@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://Volodymyr-Mospan.github.io/comand-js-test",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/*.html -p1331",
     "build": "parcel build src/*.html --public-url /comand-js-test/"
   },
   "repository": {
