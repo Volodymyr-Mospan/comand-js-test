@@ -1,27 +1,31 @@
-<header style="background-color: #10181d">
-  <nav class="nav">
-    <a href="./index.html" class="logo">
-      <svg class="logo__icon" width="24" height="24">
-        <use href="./images/svg/icon.svg#icon-logo"></use>
-      </svg>
-      <span class="logo__text">Filmoteka</span>
-    </a>
-    <a href="#">Home</a>
-    <a href="#">my library</a>
-  </nav>
+<header>
+  <div class="container">
+    <nav class="nav">
+      <a href="./index.html" class="logo">
+        <svg class="logo__icon" width="24" height="24">
+          <use href="./images/svg/icon.svg#icon-logo"></use>
+        </svg>
+        <h1 class="logo__text">Filmoteka</h1>
+      </a>
+      <ul class="nav-list">
+        <li><a class="nav-list__item" href="#">Home</a></li>
+        <li><a class="nav-list__item" href="#">my library</a></li>
+      </ul>
+    </nav>
 
-  <form name="search-film-form">
-    <input
-      type="text"
-      name="search-film"
-      id="search-film"
-      placeholder="Movie search"
-    />
-    <button type="submit">
-      <svg>
-        <use href="./images/svg/icon.svg#icon-search"></use>
-      </svg>
-    </button>
-  </form>
-  <p></p>
+    <form name="search-film-form">
+      <input
+        type="text"
+        name="search-film"
+        id="search-film"
+        placeholder="Movie search"
+      />
+      <button type="submit">
+        <svg>
+          <use href="./images/svg/icon.svg#icon-search"></use>
+        </svg>
+      </button>
+    </form>
+    <p></p>
+  </div>
 </header>
